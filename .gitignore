@@ -1,0 +1,15 @@
+# Виртуальное окружение
+.venv/
+env/
+
+# Данные и модели
+data/
+models/*.pt
+models/*.pth
+models/*.pkl
+
+# Кэш Python и Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
