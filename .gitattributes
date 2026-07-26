@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+/Users/polina/VSCode/ML/Lithology_project/Lithology[[:space:]]prediction/notebooks/models/random_forest_grouped_optuna.joblib filter=lfs diff=lfs merge=lfs -text
+notebooks/models/random_forest_grouped_optuna.joblib filter=lfs diff=lfs merge=lfs -text

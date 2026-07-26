@@ -58,6 +58,7 @@ def main():
                     "ROPA",
                     "WELL",
                     "FORCE_2020_LITHOFACIES_CONFIDENCE",
+                    'LITHO_NAME'
                 ],
         cols_to_log = ['RDEP', 'RMED', 'RSHA']
     )
@@ -95,6 +96,8 @@ def main():
     # for X_batch, y_batch in lstm_loader:
     #     print(f"PyTorch LSTM Batch готов -> X: {X_batch.shape}, y: {y_batch.shape}")
     #     break
+
+
 
 
 
