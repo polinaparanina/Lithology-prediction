@@ -77,7 +77,6 @@ class RandomForest:
         self.y_val = y_val
 
         def objective(trial):
-            # Создаем временный пайплайн для каждого trial
             pipeline = get_rf_pipeline(
                 cols_to_drop=[self.group_col], 
                 cols_to_log=self.cols_to_log
