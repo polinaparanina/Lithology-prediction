@@ -23,7 +23,7 @@ def get_baseline_pipeline(cols_to_drop: list, cols_to_log: list) -> Pipeline:
 
     pipeline_baseline = Pipeline(
         [
-            # ("feature", DataCleansing(cols_to_drop=cols_to_drop, cols_to_log=cols_to_log)),
+            ("feature", DataCleansing(cols_to_drop=cols_to_drop, cols_to_log=cols_to_log)),
             (
                 "preprocessor",
                 ColumnTransformer(
@@ -77,7 +77,7 @@ def get_rf_pipeline(cols_to_drop: list, cols_to_log: list) -> Pipeline:
 
     pipeline_rf = Pipeline(
         [
-            # ("feature", DataCleansing(cols_to_drop=cols_to_drop, cols_to_log=cols_to_log)),
+            ("feature", DataCleansing(cols_to_drop=cols_to_drop, cols_to_log=cols_to_log)),
             (
                 "preprocessor",
                 ColumnTransformer(
