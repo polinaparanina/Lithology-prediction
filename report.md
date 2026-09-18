@@ -26,7 +26,7 @@
 | RF (Optuna) + HyperImpute1 | val | 0.86 | 0.78 | 0.85 |
 | RF (Optuna) + HyperImpute1 | test | 0.86 | 0.82 | 0.86 |
 | RF (Optuna) + HyperImpute2 | val | 0.86 | 0.78 | 0.85 |
-| RF (Optuna) + HyperImput2 | test | 0.85 | 0.80 | 0.85 |
+| RF (Optuna) + HyperImpute2 | test | 0.85 | 0.80 | 0.85 |
 
 
 
